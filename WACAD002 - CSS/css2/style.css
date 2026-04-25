@@ -1,0 +1,48 @@
+/* Configuração básica */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* Imagem de fundo da Nebulosa do Anel (James Webb) */
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ring_Nebula_James_Webb_Space_Telescope.jpg/1280px-Ring_Nebula_James_Webb_Space_Telescope.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Card de texto sobre a imagem */
+.card {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 3px solid #c8a84b;
+    border-radius: 4px;
+
+    padding: 20px;
+    max-width: 190px;
+
+    color: #fff;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
